@@ -1,6 +1,5 @@
 # soCoM
-Semi-online Computational Offloading by Dueling Deep-Q Network for User Behavior Prediction
-Python code to reproduce our soCoM model, which utilizes users’ behavior prediction methods to optimize task offloading in edge computing environments.
+Python code to reproduce our soCoM model, which utilizes users’ behavior prediction methods to optimize task offloading in edge computing environments. This is the code of paper in title 'Semi-online Computational Offloading by Dueling Deep-Q Network for User Behavior Prediction'.
 
 It includes:
 
