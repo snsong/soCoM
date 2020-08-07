@@ -24,4 +24,4 @@ It includes:
 - For changing the DQN algorithms, change the import of package in the file OFFLOAD.py.
 
 ## About authors
-- Shinan Song, songshinan1990 AT 163.com
+- Shinan Song, songshinan AT 163.com
