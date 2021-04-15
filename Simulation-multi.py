@@ -27,20 +27,20 @@ BUFFER = 500 #mec buffer
 def SimulationM(rho,ql,name):
 
     random.seed(RANDOM_SEED)
-    ul = soCoM.UL()
+    ul = soCoMM.UL()
     for i in range(ul.USERS_NUM):
-        user = soCoM.User(i)
+        user = soCoMM.User(i)
         user.usersetting()
         user.usercreat()
         ul.USER_LIST.append(user)
     
-    mec0 = soCoM.MEC(0,ul)
+    mec0 = soCoMM.MEC(0,ul)
     mec0.setMEC(0,0,0,2,50)
-    mec1 = soCoM.MEC(1,ul)
+    mec1 = soCoMM.MEC(1,ul)
     mec1.setMEC(1000,0,0,4,50)
-    mec2 = soCoM.MEC(2,ul)
+    mec2 = soCoMM.MEC(2,ul)
     mec2.setMEC(0,1000,0,6,50)
-    mec3 = soCoM.MEC(3,ul)
+    mec3 = soCoMM.MEC(3,ul)
     mec3.setMEC(1000,1000,0,8,50)
     
     name += str(mec0.USERS_NUM)
