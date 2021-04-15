@@ -12,12 +12,14 @@ It includes:
 
 - Simulation.py: run this file for soCoM, creating a simulated environment.
 
+- soCoMM.py, OFFLOADM.py, Simulation-multi.py: Multiple servers senario.
+
 ## Required packages
 - SimPy:  https://simpy.readthedocs.io/en/latest/
 - Tensorflow 1.0
 
 ## How the code works
-- For the soCoM model, run the file Simulation.py.
+- For the soCoM simulation, run the file Simulation.py.
 
 - For changing the numbers of user equipment, change the global variable 'UN' in the file soCoM.py.
 
